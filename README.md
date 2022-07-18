@@ -1,5 +1,22 @@
-# multicontainarized-django-app
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
 
-# This app is a adjango base ecommerce app 
-# The app is containerized using docker compose and pushed to a public docker hub
-# the app is deployed on AMAZon ECS
+## General info
+This project is base on containerizing a django app using docker composing.
+you should be familier with django and python.
+	
+## Technologies
+Project is created with:
+* Docker
+* docker compose
+
+## Setup
+To run this project, :
+
+```
+$ cd ../multicontainarized-django-app
+$ docker-compose up --build
+
+```
